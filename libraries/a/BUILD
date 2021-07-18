@@ -25,7 +25,10 @@ ts_project(
     composite = True,
     declaration = True,
     tsconfig = "tsconfig_lib",
-    deps = ["@npm//@types/node"],
+    deps = [
+        "//libraries/b:b_js",
+        "@npm//@types/node",
+    ],
 )
 
 js_library(
