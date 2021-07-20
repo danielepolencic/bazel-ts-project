@@ -37,7 +37,17 @@
       "./bazel-out/x64_windows-fastbuild/bin/libraries",
       "./bazel-out/darwin-dbg/bin/libraries",
       "./bazel-out/k8-dbg/bin/libraries",
-      "./bazel-out/x64_windows-dbg/bin/libraries"
+      "./bazel-out/x64_windows-dbg/bin/libraries",
+
+      "./types",
+      "./bazel-out/host/bin/types",
+      "./bazel-out/darwin-fastbuild/bin/types",
+      "./bazel-out/k8-fastbuild/bin/types",
+      "./bazel-out/x64_windows-fastbuild/bin/types",
+      "./bazel-out/darwin-dbg/bin/types",
+      "./bazel-out/k8-dbg/bin/types",
+      "./bazel-out/x64_windows-dbg/bin/types"
     ]
-  }
+  },
+  "include": ["./types/*.d.ts"]
 }
