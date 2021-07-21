@@ -21,7 +21,7 @@ ts_project(
     srcs = [
         "a.ts",
         "index.ts",
-    ],
+    ] + ["//types"],
     composite = True,
     declaration = True,
     tsconfig = "tsconfig_lib",

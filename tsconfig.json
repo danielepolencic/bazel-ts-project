@@ -48,6 +48,5 @@
       "./bazel-out/k8-dbg/bin/types",
       "./bazel-out/x64_windows-dbg/bin/types"
     ]
-  },
-  "include": ["./types/*.d.ts"]
+  }
 }
