@@ -21,13 +21,14 @@ ts_project(
     srcs = [
         "a.ts",
         "index.ts",
-    ] + ["//types"],
+    ],
     composite = True,
     declaration = True,
     tsconfig = "tsconfig_lib",
     deps = [
         "//libraries/b:b_js",
         "@npm//@types/node",
+        "//types:hast"
     ],
 )
 

@@ -3,5 +3,5 @@
   "compilerOptions": {
     "types": ["node"]
   },
-  "include": [".", "./**/*.json","../../types/*.d.ts"]
+  "include": [".", "./**/*.json"]
 }
