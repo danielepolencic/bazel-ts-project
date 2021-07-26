@@ -22,7 +22,11 @@ ts_project(
     composite = True,
     declaration = True,
     tsconfig = "tsconfig_lib",
-    deps = ["@npm//@types/node"],
+    deps = [
+        "@npm//@types/node",
+        "//types/hast",
+        "//types/my-type",
+    ],
 )
 
 js_library(
