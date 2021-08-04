@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDirs": [
+      ".",
+      "../../app/blog",
+      "../../bazel-out/host/bin/app/blog",
+      "../../bazel-out/darwin-fastbuild/bin/app/blog",
+      "../../bazel-out/k8-fastbuild/bin/app/blog",
+      "../../bazel-out/x64_windows-fastbuild/bin/app/blog",
+      "../../bazel-out/darwin-dbg/bin/app/blog",
+      "../../bazel-out/k8-dbg/bin/app/blog",
+      "../../bazel-out/x64_windows-dbg/bin/app/blog",
+    ]
+  }
+}
