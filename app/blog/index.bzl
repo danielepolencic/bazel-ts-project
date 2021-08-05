@@ -57,6 +57,7 @@ def blog_post(exclude_svgs = []):
         name = "article",
         deps = [
             "article_ts",
+            "assets",
         ],
     )
 
