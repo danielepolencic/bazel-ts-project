@@ -28,6 +28,7 @@ ts_project(
     deps = [
         "//libraries/b:b_js",
         "@npm//@types/node",
+        "//types/hast"
     ],
 )
 

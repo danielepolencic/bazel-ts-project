@@ -31,6 +31,7 @@ ts_project(
     declaration = True,
     tsconfig = "tsconfig",
     deps = [
+        "//app/blog",
         "//libraries/a:a_js",
         "//libraries/b:b_js",
         "@npm//@types/node",

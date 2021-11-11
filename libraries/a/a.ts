@@ -2,7 +2,6 @@ import { b } from "@libs/b";
 import * as Hast from "hast";
 
 let d: Hast.Element | undefined;
+d = { type: "root", properties: {}, tagName: "div" };
 
-console.log(d ?? '')
-
-export const a = `a${b}`;
+export const a = `a${b} ${JSON.stringify(d)}`;
